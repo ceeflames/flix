@@ -1,2 +1,2 @@
 # flix
- A netflix landing Page and Sign Page.
+ A Netflix landing Page and Sign Page.
