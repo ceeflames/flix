@@ -63,7 +63,7 @@ form {
   --fgColorL: 50%;
   --borderRadius: 0.5rem;
   background: black;
-  opacity: .79;
+  opacity: .69;
   border: 1px solid var(--border);
   border-radius: var(--borderRadius);
   box-shadow: 0 1rem 1rem -0.75rem var(--border);
