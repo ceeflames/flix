@@ -259,7 +259,7 @@ input[type="checkbox"]:checked + label span::after {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   form {
     --padding-left: 200px;
@@ -290,11 +290,11 @@ input[type="checkbox"]:checked + label span::after {
   }
   .sign {
     margin-top: 1px;
-    margin-left: -80px;
+    margin-left: -60px;
     margin-right: -60px;
     color: #fff;
     text-transform: none;
-    text-align: right;
+    text-align: center;
     overflow: hidden;
   }
   .login-form {
@@ -315,7 +315,7 @@ input[type="checkbox"]:checked + label span::after {
     order: 3;
     position: absolute;
     top: 18.4em;
-    left: 25px;
+    left: 14em;
     color: white;
     margin-bottom: 60%;
   }
@@ -323,7 +323,7 @@ input[type="checkbox"]:checked + label span::after {
     height: 15px;
     position: absolute;
     top: 23.9em;
-    right: 1em;
+    right: 12em;
   }
   .showcase-logo {
     position: absolute;
@@ -341,5 +341,117 @@ input[type="checkbox"]:checked + label span::after {
     max-width: 94%;
     margin: 1rem auto;
     overflow: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* For mobile phones: */
+  form {
+    --padding-left: 200px;
+    --background-color: #fff;
+    --border: rgba(0, 0, 0, 0.125);
+    --borderDark: #fff;
+    --borderDarker: #fff;
+    --bgColorH: 20%;
+    --bgColorL: 20%;
+    --fgColorH: 1;
+    --fgColorS: 80%;
+    --fgColorL: 50%;
+    --borderRadius: 0.5rem;
+    background: black;
+    opacity: .69;
+    border: 1px solid var(--border);
+    border-radius: var(--borderRadius);
+    box-shadow: 0 1rem 1rem -0.75rem var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    height: 30rem;
+    position: absolute;
+    margin: -2px 12px 2px 12px;
+    overflow: hidden;
+    top: 20%;
+    z-index: 2;
+  }
+  .sign {
+    margin-top: 1px;
+    margin-left: -60px;
+    margin-right: -60px;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    overflow: hidden;
+  }
+  .login-form {
+    left: 0;
+    right: 0;
+  }
+  h1 {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: -50px;
+  }
+  .rem {
+    left: 20px;
+  }
+  .label-show-password {
+    order: 3;
+    position: absolute;
+    top: 18.4em;
+    left: 2em;
+    color: white;
+    margin-bottom: 60%;
+  }
+  .remember {
+    height: 15px;
+    position: absolute;
+    top: 23.9em;
+    right: 0em;
+  }
+  .showcase-logo {
+    position: absolute;
+    z-index: 2;
+    width: 90px;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    margin-left: 5px;
+  }
+  .showcase-logo:hover {
+    opacity: .5;
+  }
+  .footer {
+    max-width: 94%;
+    margin: 1rem auto;
+    overflow: auto;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* For mobile phones: */
+
+  .sign {
+    margin-top: 1px;
+    margin-left: -9em;
+    margin-right: -10em;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    overflow: hidden;
+    left: 0;
+  }
+  .label-show-password {
+    order: 3;
+    position: absolute;
+    top: 18.4em;
+    left: 1em;
+    color: white;
+    margin-bottom: 60%;
+  }
+  .remember {
+    height: 15px;
+    position: absolute;
+    top: 23.9em;
+    right: -3.7em;
   }
 }
