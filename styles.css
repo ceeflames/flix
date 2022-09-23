@@ -21,11 +21,6 @@ body {
   background: #000;
   color: #999;
 }
-
-ul {
-  list-style: none;
-}
-
 h1, h2, h3, h4 {
   color: #fff;
 }
@@ -97,23 +92,23 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 20em;
+  margin-top: 16em;
+  padding: 30px 30px 30px 30px;
 }
 
 .showcase-content h1 {
   font-weight: 700;
-  font-size: 5.2rem;
+  font-size: 3.7rem;
   line-height: 1.1;
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
 }
 
 .showcase-content p {
+  font-weight: 380;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 400;
-  font-size: 1.9rem;
-  line-height: 1.25;
-  margin: 0 0 2rem;
+  font-size: 1.7rem;
+  margin: 0 0 2px;
 }
 
 /* Tabs */
@@ -162,8 +157,8 @@ img {
 
 
 .show {
-  display: block !important;
-  opacity: 1 !important;
+  display: block;
+  opacity: 1;
   transition: all 1000 ease-in;
 }
 
@@ -221,43 +216,6 @@ img {
 
 .table tbody tr:nth-child(odd) {
   background: #222;
-}
-
-.footer {
-  margin-left: 20px;
-  max-width: 70%;
-  margin: 1rem auto;
-  overflow: auto;
-}
-
-.footer,
-.footer a {
-  color: #999;
-  font-size: 0.9rem;
-}
-
-.footer p {
-  margin-bottom: 1.5rem;
-}
-
-.footer .footer-cols {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
-}
-
-.footer li {
-  line-height: 1.5;
-}
-
-.footer .lang-select {
-  margin-top: 2rem;
-  color: #999;
-  background-color: #000;
-  background-image: none;
-  border: 1px solid #333;
-  padding: 1rem 1.2rem;
-  border-radius: 5px;
 }
 
 /* Container */
@@ -328,7 +286,9 @@ img {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
   border-radius: 10px;
 }
-
+.btn-icon {
+  margin-left: 1rem;
+}
 .btn:hover {
   opacity: .5;
 }
@@ -342,6 +302,9 @@ img {
   padding: 1.5rem 2.1rem;
   text-transform: uppercase;
 }
+.hide-sm {
+  display: grid;
+}
 
 .btn-lg {
   font-size: 1rem;
@@ -349,114 +312,50 @@ img {
   text-transform: uppercase;
 }
 
-.btn-icon {
-  margin-left: 1rem;
+.footer {
+  max-width: 65%;
+  margin: 1rem auto;
+  overflow: auto;
 }
 
-/* @media (min-width: 960px) {
+.footer {
+  color: #999;
+  font-size: 0.9rem;
+}
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
 
-    .showcase {
-    height: 70vh;
-  }
+.footer p {
+  margin-bottom: 1.5rem;
+}
 
-  .hide-sm {
-    display: inline-block;
-  }
-  .tab-item p {
-    font-size: 15px;
-  }
-  .showcase-logo{
-    width: 130px;
-    top: 4%;
-    left: 7%;
-    transform: translate(0);
-  }
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
 
-  .showcase-content h1 {
-    font-size: 3.7rem;
-    line-height: 1;
-  }
+.footer li {
+  line-height: 1.9;
+}
 
-  .showcase-content p {
-    font-size: 1.5rem;
-  }
-
-  .footer .footer-cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .btn-xl {
-    font-size: 1.5rem;
-    padding: 1.4rem 2rem;
-    text-transform: uppercase;
-  }
-
-  .text-xl {
-    font-size: 1.5rem;
-  }
-
-  .text-lg {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-  }
-
-  .text-md {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-  }
-} */
-
-
-/* @media (max-width: 390px)
-{
-  .test-class{display: none !important; visibility: hidden !important;}
-  .showcase::after {
-    background: rgba(0, 0, 0, 0.6);
-    box-shadow: inset 10px 100px -90px #000000,
-                inset -90px -50px 150px #000000;
-  }
-
-  .showcase-content h1 {
-    font-size: 2.5rem;
-    line-height: 1;
-  }
-
-  .showcase-content p {
-    font-size: 1rem;
-  }
-  #tab-2-content {
-    display: none;
-  }
-  #tab-1-content .tab-1-content-inner {
-    grid-template-columns: 1fr;
+/* @media only screen and (max-width: 500px) {
+  .showcase-content {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-top: 56em;
+    padding: 50px 50px 50px 50px;
   }
-
-  #tab-2-content .tab-2-content-top {
-    display: block;
-    text-align: center;
-  }
-
-  #tab-2-content .tab-2-content-bottom {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    text-align: center;
-  }
-  .hide-sm {
-    display: none;
-  }
-  .showcase-logo {
-    position: absolute;
-    z-index: 3;
-    width: 150px;
-    top: 2%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    margin-left: 5px;
-  }
-  .tab-content {
+.hide-sm {
   display: none;
-  }
+}
 } */
