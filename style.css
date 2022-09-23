@@ -133,7 +133,10 @@ label:hover input.text {
   top: 12px;
   border-color: hsl(var(--fgColorH), var(--fgColorS), var(--fgColorL));
 }
-
+marquee {
+  font-size: 20px;
+  color: red;
+}
 label>input.text:focus,
 label input.text:active {
   border-color:  hsl(var(--fgColorH), calc(var(--fgColorS) * 2), calc(var(--fgColorL) * 1.15));
