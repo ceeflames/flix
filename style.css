@@ -343,6 +343,22 @@ input[type="checkbox"]:checked + label span::after {
     overflow: auto;
   }
 }
+@media only screen and (max-width: 500px) {
+  .label-show-password {
+    order: 3;
+    position: absolute;
+    top: 18.4em;
+    left: 85px;
+    color: white;
+    margin-bottom: 60%;
+  }
+  .remember {
+    height: 15px;
+    position: absolute;
+    top: 23.9em;
+    right: 63px;
+  }
+}
 @media only screen and (max-width: 414px) {
   /* For mobile phones: */
   form {
@@ -407,7 +423,7 @@ input[type="checkbox"]:checked + label span::after {
     height: 15px;
     position: absolute;
     top: 23.9em;
-    right: 0em;
+    right: 1em;
   }
   .showcase-logo {
     position: absolute;
