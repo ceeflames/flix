@@ -353,7 +353,7 @@ input[type="checkbox"]:checked + label span::after {
     margin-bottom: 60%;
   }
   .remember {
-    height: 15px;
+    height: 9px;
     position: absolute;
     top: 23.9em;
     right: 63px;
