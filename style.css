@@ -259,7 +259,7 @@ input[type="checkbox"]:checked + label span::after {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* For mobile phones: */
   form {
     --padding-left: 200px;
@@ -323,7 +323,7 @@ input[type="checkbox"]:checked + label span::after {
     height: 15px;
     position: absolute;
     top: 23.9em;
-    right: 12em;
+    right: 10em;
   }
   .showcase-logo {
     position: absolute;
@@ -423,7 +423,7 @@ input[type="checkbox"]:checked + label span::after {
     height: 15px;
     position: absolute;
     top: 23.9em;
-    right: 1em;
+    right: -0em;
   }
   .showcase-logo {
     position: absolute;
