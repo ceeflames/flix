@@ -342,20 +342,11 @@ img {
   line-height: 1.9;
 }
 
-/* @media only screen and (max-width: 500px) {
-  .showcase-content {
-    position: relative;
-    z-index: 2;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 56em;
-    padding: 50px 50px 50px 50px;
-  }
-.hide-sm {
+/* @media only screen and (max-width: 767px) {
+#res{
+  display: none;
+}
+.hide-sm{
   display: none;
 }
 } */
