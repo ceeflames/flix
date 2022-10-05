@@ -403,15 +403,15 @@ input[type="checkbox"]:checked + label span::after {
     padding-top: 15px;
     order: 3;
     position: absolute;
-    top: 18.4em;
-    left: 5em;
+    top: 294.4px;
+    left: 80px;
     color: white;
   }
   .remember {
     height: 15px;
     position: absolute;
-    top: 25.9em;
-    right: 4em;
+    top: 411.4px;
+    right: 64px;
   }
   .showcase-logo {
     position: absolute;
