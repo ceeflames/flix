@@ -258,7 +258,7 @@ input[type="checkbox"]:checked + label span::after {
   line-height: 1.9;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px)and (max-width: 1200px) {
   /* Desktop: */
   form {
     --padding-left: 200px;
@@ -344,8 +344,8 @@ input[type="checkbox"]:checked + label span::after {
     overflow: auto;
   }
 }
- @media only screen and (min-width: 767px) and (max-width: 1023px){
-  /* For Tablet */
+ @media only screen and (min-width: 769px) and (max-width: 1023px){
+  /* For laptop */
   form {
     --padding-left: 200px;
     --background-color: #fff;
@@ -431,8 +431,8 @@ input[type="checkbox"]:checked + label span::after {
     overflow: auto;
   }
 }
-@media only screen and (max-width: 767px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 481px) and (max-width: 768px){
+  /* For Tablet: */
   form {
     --padding-left: 200px;
     --background-color: #fff;
@@ -515,9 +515,8 @@ input[type="checkbox"]:checked + label span::after {
     overflow: auto;
   }
 }
-/* @media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) and (max-width: 480px){
   /* For mobile phones: */
-/*
   .sign {
     margin-top: 1px;
     margin-left: -9em;
@@ -542,4 +541,4 @@ input[type="checkbox"]:checked + label span::after {
     top: 23.9em;
     right: -3.7em;
   }
-} */
+}
