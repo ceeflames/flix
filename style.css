@@ -584,7 +584,7 @@ input[type="checkbox"]:checked + label span::after {
     height: 15px;
     position: absolute;
     top: 23.9em;
-    right: -13.7em;
+    right: 193.7em;
   }
   .showcase-logo {
     position: absolute;
